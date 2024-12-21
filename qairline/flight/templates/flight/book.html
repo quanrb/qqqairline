@@ -406,7 +406,7 @@
                         <div class="row base-fare">
                             <div class="base-fae-label">Giá vé: </div>
                             <div class="base-fare-value">
-                                {% if seat == 'First' %}
+                                {% if seat == 'Hạng nhất' %}
                                     <span>
                                         {% if flight2 %}
                                             {{flight1.first_fare | add:flight2.first_fare}}
@@ -415,7 +415,7 @@
                                         {% endif %}
                                         </span>VND
                                     <input type="hidden" id="basefare" value="{% if flight2 %}{{flight1.first_fare | add:flight2.first_fare}}{% else %}{{flight1.first_fare}}{% endif %}">
-                                {% elif seat == 'Business' %}
+                                {% elif seat == 'Thương gia' %}
                                     <span>
                                         {% if flight2 %}
                                             {{flight1.business_fare | add:flight2.business_fare}}
@@ -424,7 +424,7 @@
                                         {% endif %}
                                         </span>VND
                                     <input type="hidden" id="basefare" value="{% if flight2 %}{{flight1.business_fare | add:flight2.business_fare}}{% else %}{{flight1.business_fare}}{% endif %}">
-                                {% elif seat == 'Economy' %}
+                                {% elif seat == 'Phổ thông' %}
                                      <span>
                                         {% if flight2 %}
                                             {{flight1.economy_fare | add:flight2.economy_fare}}
@@ -445,7 +445,7 @@
                         <div class="total-fare">
                             <div class="total-fare-label">Tổng tiền: </div>
                             <div class="total-fare-value">
-                                {% if seat == 'First' %}
+                                {% if seat == 'Hạng nhất' %}
                                     <span>
                                         {% if flight2 %}
                                             {{flight1.first_fare | add:flight2.first_fare | add:fee}}
@@ -453,7 +453,7 @@
                                             {{flight1.first_fare | add:fee}}
                                         {% endif %}
                                     </span>VND
-                                {% elif seat == 'Business' %}
+                                {% elif seat == 'Thương gia' %}
                                     <span>
                                         {% if flight2 %}
                                             {{flight1.business_fare | add:flight2.business_fare | add:fee}}
@@ -461,7 +461,7 @@
                                             {{flight1.business_fare | add:fee}}
                                         {% endif %}
                                     </span>VND
-                                {% elif seat == 'Economy' %}
+                                {% elif seat == 'Phổ thông' %}
                                     <span>
                                         {% if flight2 %}
                                             {{flight1.economy_fare | add:flight2.economy_fare | add:fee}}

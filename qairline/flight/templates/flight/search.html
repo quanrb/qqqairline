@@ -57,7 +57,9 @@
                     <div class="return-date-div">
                         <div class="small-label">Hạng vé</div>
                         <div class="black">{{seat}}</div>
+                         
                     </div>
+                    
                 </div>
                 <div class="v-line"></div>
                 <div class="trip-modify">
@@ -85,9 +87,9 @@
                         </svg>
                         <span>{{destination.code|upper}}</span>&nbsp;&nbsp;@&nbsp;&nbsp;
                         <span id="select-f1-fare">
-                            {% if seat == "Economy" %}
+                            {% if seat == "Phổ thông" %}
                                 {{flights.all.0.economy_fare}}
-                            {% elif seat == "Business" %}
+                            {% elif seat == "Thương gia" %}
                                 {{flights.all.0.business_fare}}
                             {% else %}
                                 {{flights.all.0.first_fare}}
@@ -114,9 +116,9 @@
                         &nbsp;&nbsp;@&nbsp;&nbsp;
                         {% if flights2 %}
                             <span id="select-f2-fare">
-                                {% if seat == "Economy" %}
+                                {% if seat == "Phổ thông" %}
                                     {{flights2.all.0.economy_fare}}
-                                {% elif seat == "Business" %}
+                                {% elif seat == "Thương gia" %}
                                     {{flights2.all.0.business_fare}}
                                 {% else %}
                                     {{flights2.all.0.first_fare}}
@@ -146,17 +148,17 @@
                         <span>
                             <span id="select-total-fare">
                                 {% if flights2 %}
-                                    {% if seat == "Economy" %}
+                                    {% if seat == "Phổ thông" %}
                                         {{flights.all.0.economy_fare | add:flights2.all.0.economy_fare}}
-                                    {% elif seat == "Business" %}
+                                    {% elif seat == "Thương gia" %}
                                         {{flights.all.0.business_fare | add:flights2.all.0.business_fare}}
                                     {% else %}
                                         {{flights.all.0.first_fare | add:flights2.all.0.first_fare}}
                                     {% endif %}
                                 {% else %}
-                                    {% if seat == "Economy" %}
+                                    {% if seat == "Phổ thông" %}
                                         {{flights.all.0.economy_fare}}
-                                    {% elif seat == "Business" %}
+                                    {% elif seat == "Thương gia" %}
                                         {{flights.all.0.business_fare}}
                                     {% else %}
                                         {{flights.all.0.first_fare}}
@@ -192,17 +194,17 @@
                             <span style="margin: auto;">
                                 <span id="select-total-fare-media">
                                     {% if flights2 %}
-                                        {% if seat == "Economy" %}
+                                        {% if seat == "Phổ thông" %}
                                             {{flights.all.0.economy_fare | add:flights2.all.0.economy_fare}}
-                                        {% elif seat == "Business" %}
+                                        {% elif seat == "Thương gia" %}
                                             {{flights.all.0.business_fare | add:flights2.all.0.business_fare}}
                                         {% else %}
                                             {{flights.all.0.first_fare | add:flights2.all.0.first_fare}}
                                         {% endif %}
                                     {% else %}
-                                        {% if seat == "Economy" %}
+                                        {% if seat == "Phổ thông" %}
                                             {{flights.all.0.economy_fare}}
-                                        {% elif seat == "Business" %}
+                                        {% elif seat == "Thương gia" %}
                                             {{flights.all.0.business_fare}}
                                         {% else %}
                                             {{flights.all.0.first_fare}}
@@ -530,9 +532,9 @@
                                                     <h5>
                                                  
                                                         <span>
-                                                            {% if seat == 'Economy' %}{{flight.economy_fare}}{% endif %}
-                                                            {% if seat == 'Business' %}{{flight.business_fare}}{% endif %}
-                                                            {% if seat == 'First' %}{{flight.first_fare}}{% endif %}
+                                                            {% if seat == 'Phổ thông' %}{{flight.economy_fare}}{% endif %}
+                                                            {% if seat == 'Thương gia' %}{{flight.business_fare}}{% endif %}
+                                                            {% if seat == 'Hạng nhất' %}{{flight.first_fare}}{% endif %}
                                                         </span> VND
                                                     </h5>
                                                 </div>
@@ -541,7 +543,7 @@
 
                                                     {% if trip_type == '2' %}
                                                         {% if forloop.couter == 1 %}checked{% endif %}
-                                                        <input type="radio" class="flight1-radio r-b" name="test1" value="{{flight.id}}" data-plane='{{flight.plane}}' data-depart='{{flight.depart_time|time:"H:i"}}' data-arrive='{{flight.arrival_time|time:"H:i"}}' data-fare="{% if seat == 'Economy' %} {{flight.economy_fare}} {% elif seat == 'Business' %} {{flight.business_fare}} {% else %} {{flight.first_fare}} {% endif %}" {% if forloop.counter == 1 %}checked{% endif %}>
+                                                        <input type="radio" class="flight1-radio r-b" name="test1" value="{{flight.id}}" data-plane='{{flight.plane}}' data-depart='{{flight.depart_time|time:"H:i"}}' data-arrive='{{flight.arrival_time|time:"H:i"}}' data-fare="{% if seat == 'Phổ thông' %} {{flight.economy_fare}} {% elif seat == 'Thương gia' %} {{flight.business_fare}} {% else %} {{flight.first_fare}} {% endif %}" {% if forloop.counter == 1 %}checked{% endif %}>
                                                     {% else %}
                                                         <form action="{% url 'review' %}" method="GET" style="display: flex;">
                                                             <input type="hidden" name="flight1Id" value="{{flight.id}}">
@@ -819,9 +821,9 @@
                                                         <h5>
                                                          
                                                             <span>
-                                                                {% if seat == 'Economy' %}{{flight2.economy_fare}}{% endif %}
-                                                                {% if seat == 'Business' %}{{flight2.business_fare}}{% endif %}
-                                                                {% if seat == 'First' %}{{flight2.first_fare}}{% endif %}
+                                                                {% if seat == 'Phổ thông' %}{{flight2.economy_fare}}{% endif %}
+                                                                {% if seat == 'Thương gia' %}{{flight2.business_fare}}{% endif %}
+                                                                {% if seat == 'Hạng nhất' %}{{flight2.first_fare}}{% endif %}
                                                             </span> VND
                                                         </h5>
                                                     </div>
@@ -831,7 +833,7 @@
 
                                                         {% if trip_type == '2' %}
                                                             {% if forloop.couter == 1 %}checked{% endif %}
-                                                            <input type="radio" class="flight2-radio r-b" name="test2" value="{{flight2.id}}" data-plane='{{flight2.plane}}' data-depart='{{flight2.depart_time|time:"H:i"}}' data-arrive='{{flight2.arrival_time|time:"H:i"}}' data-fare="{% if seat == 'Economy' %} {{flight2.economy_fare}} {% elif seat == 'Business' %} {{flight2.business_fare}} {% else %} {{flight2.first_fare}} {% endif %}" {% if forloop.counter == 1 %}checked{% endif %}>
+                                                            <input type="radio" class="flight2-radio r-b" name="test2" value="{{flight2.id}}" data-plane='{{flight2.plane}}' data-depart='{{flight2.depart_time|time:"H:i"}}' data-arrive='{{flight2.arrival_time|time:"H:i"}}' data-fare="{% if seat == 'Phổ thông' %} {{flight2.economy_fare}} {% elif seat == 'Thương gia' %} {{flight2.business_fare}} {% else %} {{flight2.first_fare}} {% endif %}" {% if forloop.counter == 1 %}checked{% endif %}>
                                                         {% else %}
                                                             <form action="{% url 'review' %}" method="GET" style="display: flex;">
                                                                 <input type="hidden" name="flight1Id" value="{{flight2.id}}">

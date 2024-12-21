@@ -201,6 +201,14 @@ def flight(request):
                 max_price2 = 0 
                 min_price2 = 0  
 
+    seat_mapping = {
+        'economy': 'phổ thông',
+        'business': 'thương gia',
+        'first': 'hạng nhất'
+    }
+    seat = seat_mapping.get(seat)
+    
+    
     #print(calendar.day_name[depart_date.weekday()])
     if trip_type == '2':
         return render(request, "flight/search.html", {
@@ -231,6 +239,8 @@ def flight(request):
             'max_price': math.ceil(max_price/100)*100,
             'min_price': math.floor(min_price/100)*100
         })
+        
+
 
 def review(request):
     flight_1 = request.GET.get('flight1Id')
@@ -255,9 +265,6 @@ def review(request):
             flight2 = Flight.objects.get(id=flight_2)
             flight2ddate = datetime(int(date2.split('-')[2]),int(date2.split('-')[1]),int(date2.split('-')[0]),flight2.depart_time.hour,flight2.depart_time.minute)
             flight2adate = (flight2ddate + flight2.duration)
-        #print("//////////////////////////////////")
-        #print(f"flight1ddate: {flight1adate-flight1ddate}")
-        #print("//////////////////////////////////")
         if round_trip:
             return render(request, "flight/book.html", {
                 'flight1': flight1,
@@ -311,17 +318,17 @@ def book(request):
                 if f2:
                     ticket2 = createticket(request.user,passengers,passengerscount,flight2,flight_2date,flight_2class,coupon,countrycode,email,mobile)
 
-                if(flight_1class == 'Economy'):
+                if(flight_1class == 'Phổ thông'):
                     if f2:
                         fare = int((flight1.economy_fare*int(passengerscount))+(flight2.economy_fare*int(passengerscount)))
                     else:
                         fare = int(flight1.economy_fare*int(passengerscount))
-                elif (flight_1class == 'Business'):
+                elif (flight_1class == 'Thương gia'):
                     if f2:
                         fare = int((flight1.business_fare*int(passengerscount))+(flight2.business_fare*int(passengerscount)))
                     else:
                         fare = flight1.business_fare*int(passengerscount)
-                elif (flight_1class == 'First'):
+                elif (flight_1class == 'Hạng nhất'):
                     if f2:
                         fare = (flight1.first_fare*int(passengerscount))+(flight2.first_fare*int(passengerscount))
                     else:
