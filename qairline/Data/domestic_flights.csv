@@ -1,4 +1,4 @@
-Unnamed: 0,origin,destination,depart_time,depart_weekday,duration,arrival_time,arrival_weekday,flight_no,airline_code,airline,economy_fare,business_fare,first_fare
+index,origin,destination,depart_time,depart_weekday,duration,arrival_time,arrival_weekday,flight_no,airline_code,airline,economy_fare,business_fare,first_fare
 0,HAN,SGN,08:00:00,2,02:10:00,10:10:00,2,QA210,QA,QAirline,1514200,,
 1,HAN,SGN,10:55:00,2,02:15:00,13:10:00,2,QA311,QA,QAirline,1514200,,
 2,HAN,SGN,19:45:00,2,02:15:00,22:00:00,2,QA309,QA,QAirline,1514200,,

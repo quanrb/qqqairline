@@ -1,122 +1,123 @@
 city,airport,code,country
-Atlanta,Hartsfield–Jackson Atlanta International Airport,ATL,United States
-Beijing,Beijing Capital International Airport,PEK,China
-Dubai,Dubai International Airport,DXB,United Arab Emirates
-Los Angeles,Los Angeles International Airport,LAX,United States
-Chicago,O'Hare International Airport,ORD,United States
-London,Heathrow Airport,LHR,United Kingdom
-Tokyo,Haneda Airport,HND,Japan
-Hong Kong,Hong Kong International Airport,HKG,Hong Kong
-Shanghai,Shanghai Pudong International Airport,PVG,China
-Paris,Charles de Gaulle International Airport,CDG,France
-Amsterdam,Amsterdam Airport Schiphol,AMS,Netherlands
-Dallas,Dallas-Fort Worth International Airport,DFW,United States
-Guangzhou,Guangzhou Baiyun International Airport,CAN,China
-Frankfurt,Frankfurt am Main International Airport,FRA,Germany
-Istanbul,Istanbul Atatürk Airport,IST,Turkey
-Delhi,Indira Gandhi International Airport,DEL,India
-Jakarta,Soekarno-Hatta International Airport,CGK,Indonesia
-Singapore,Singapore Changi Airport,SIN,Singapore
-Seoul,Incheon International Airport,ICN,South Korea
-Denver,Denver International Airport,DEN,United States
-Bangkok,Suvarnabhumi Airport,BKK,Thailand
-New York,John F. Kennedy International Airport,JFK,United States
-Kuala Lumpur,Kuala Lumpur International Airport,KUL,Malaysia
-San Francisco,San Francisco International Airport,SFO,United States
-Madrid,Adolfo Suárez Madrid–Barajas Airport,MAD,Spain
-Chengdu,Chengdu Shuangliu International Airport,CTU,China
-Las Vegas,McCarran International Airport,LAS,United States
-Barcelona,Barcelona–El Prat Airport,BCN,Spain
-Mumbai,Chhatrapati Shivaji International Airport,BOM,India
-Toronto,Toronto Pearson International Airport,YYZ,Canada
-Seattle,Seattle–Tacoma International Airport,SEA,United States
-Charlotte,Charlotte Douglas International Airport,CLT,United States
-London,Gatwick Airport,LGW,United Kingdom
-Shenzhen,Shenzhen Bao'an International Airport,SZX,China
-Taipei,Taiwan Taoyuan International Airport,TPE,Taiwan
-Mexico City,Mexico City International Airport,MEX,Mexico
-Kunming,Kunming Changshui International Airport,KMG,China
-Munich,Munich Airport,MUC,Germany
-Orlando,Orlando International Airport,MCO,United States
-Miami,Miami International Airport,MIA,United States
-Phoenix,Phoenix Sky Harbor International Airport,PHX,United States
-Sydney,Sydney Airport,SYD,Australia
-Newark,Newark Liberty International Airport,EWR,United States
-Manila,Ninoy Aquino International Airport,MNL,Philippines
-Shanghai,Shanghai Hongqiao International Airport,SHA,China
-Xi'an,Xi'an Xianyang International Airport,XIY,China
-Rome,Leonardo da Vinci–Fiumicino Airport,FCO,Italy
-Houston,George Bush Intercontinental Houston Airport,IAH,United States
-Tokyo,Narita International Airport,NRT,Japan
-Moscow,Sheremetyevo International Airport,SVO,Russia
-Chongqing,Chongqing Jiangbei International Airport,CKG,China
-Bangkok,Don Mueang International Airport,DMK,Thailand
-Minneapolis,St Paul International Airport,MSP,United States
-Sao Paulo,São Paulo–Guarulhos International Airport,GRU,Brazil
-Boston,Logan International Airport,BOS,United States
-Ho Chi Minh City,Tan Son Nhat International Airport,SGN,Vietnam
-Doha,Hamad International Airport,DOH,Qatar
-Hangzhou,Hangzhou Xiaoshan International Airport,HGH,China
-Detroit,Detroit Metropolitan Wayne County Airport,DTW,United States
-Jeddah,King Abdulaziz International Airport,JED,Saudi Arabia
-Melbourne,Melbourne Airport,MEL,Australia
-Fort Lauderdale,Fort Lauderdale Hollywood International Airport,FLL,United States
-Orlando,Orlando Executive Airport,ORL,United States
-Istanbul,Sabiha Gökçen International Airport,SAW,Turkey
-Bogota,El Dorado International Airport,BOG,Colombia
-Moscow,Moscow Domodedovo Airport,DME,Russia
-Cheju,Jeju International Airport,CJU,South Korea
-New York,LaGuardia Airport,LGA,United States
-Philadelphia,Philadelphia International Airport,PHL,United States
-Dublin,Dublin Airport,DUB,Ireland
-Zurich,Zürich Airport,ZRH,Switzerland
-Copenhagen,Copenhagen Airport,CPH,Denmark
-Osaka,Kansai International Airport,KIX,Japan
-Palma de Mallorca,Palma De Mallorca Airport,PMI,Spain
-Manchester,Manchester Airport,MAN,United Kingdom
-Oslo,"Oslo Airport, Gardermoen",OSL,Norway
-Lisbon,Lisbon Portela Airport,LIS,Portugal
-Stockholm,Stockholm Arlanda Airport,ARN,Sweden
-Baltimore,Washington International Thurgood Marshall Airport,BWI,United States
-Antalya,Antalya Airport,AYT,Turkey
-London,London Stansted Airport,STN,United Kingdom
-Nanjing,Nanjing Lukou International Airport,NKG,China
-Seoul,Gimpo International Airport,GMP,South Korea
-Bangalore,Kempegowda International Airport,BLR,India
-Riyadh,King Khaled International Airport,RUH,Saudi Arabia
-Brussels,Brussels Airport,BRU,Belgium
-Duesseldorf,Düsseldorf International Airport,DUS,Germany
-Xiamen,Xiamen Gaoqi International Airport,XMN,China
-Vienna,Vienna International Airport,VIE,Austria
-Zhengzhou,Zhengzhou Xinzheng International Airport,CGO,China
-Salt Lake City,Salt Lake City International Airport,SLC,United States
-Vancouver,Vancouver International Airport,YVR,Canada
-Washington,Ronald Reagan Washington National Airport,DCA,United States
-Changcha,Changsha Huanghua International Airport,CSX,China
-Abu Dhabi,Abu Dhabi International Airport,AUH,United Arab Emirates
-Cancun,Cancún International Airport,CUN,Mexico
-Fukuoka,Fukuoka Airport,FUK,Japan
-Qingdao,Liuting Airport,TAO,China
-Brisbane,Brisbane International Airport,BNE,Australia
-Wuhan,Wuhan Tianhe International Airport,WUH,China
-Hanoi (Soc Son),Noi Bai International Airport,HAN,Vietnam
-Da Nang,Da Nang International Airport,DAD,Vietnam
-Buon Ma Thuot,Buon Ma Thuot Airport,BMV,Vietnam
-Vinh,Vinh Airport,VII,Vietnam
-Phu Quoc Island,Phu Quoc International Airport,PQC,Vietnam
-Cam Ranh,Cam Ranh International Airport / Cam Ranh Air Base,CXR,Vietnam
-Haiphong (Hai An),Cat Bi International Airport,HPH,Vietnam
-Da Lat,Lien Khuong Airport,DLI,Vietnam
-Huế,Phu Bai International Airport,HUI,Vietnam
-Quy Nohn,Phu Cat Airport,UIH,Vietnam
-Con Dao,Con Dao Airport,VCS,Vietnam
-Can Tho,Can Tho International Airport,VCA,Vietnam
-Dien Bien Phu,Dien Bien Phu Airport,DIN,Vietnam
-Ca Mau City,Cà Mau Airport,CAH,Vietnam
-Pleiku,Pleiku Airport,PXU,Vietnam
-Rach Gia,Rach Gia Airport,VKG,Vietnam
-Tuy Hoa,Dong Tac Airport,TBB,Vietnam
-Dong Hoi,Dong Hoi Airport,VDH,Vietnam
-Van Don,Van Don International Airport,VDO,Vietnam
-Tam Nghĩa,Chu Lai Airport,VCL,Vietnam
-Thanh Hóa,Tho Xuan Airport,THD,Vietnam
+Hà Nội,Sân bay Quốc tế Nội Bài,HAN,Việt Nam
+TP Hồ Chí Minh,Sân bay Quốc tế Tân Sơn Nhất,SGN,Việt Nam
+Đà Nẵng,Sân bay Quốc tế Đà Nẵng,DAD,Việt Nam
+Tokyo,Sân bay Haneda,HND,Nhật Bản
+Buôn Ma Thuột,Sân bay Buôn Ma Thuột,BMV,Việt Nam
+Vinh,Sân bay Vinh,VII,Việt Nam
+Phú Quốc,Sân bay Quốc tế Phú Quốc,PQC,Việt Nam
+Cam Ranh,Sân bay Quốc tế Cam Ranh,CXR,Việt Nam
+Hải Phòng,Sân bay Quốc tế Cát Bi,HPH,Việt Nam
+Đà Lạt,Sân bay Liên Khương,DLI,Việt Nam
+Huế,Sân bay Quốc tế Phú Bài,HUI,Việt Nam
+Quy Nhơn,Sân bay Phù Cát,UIH,Việt Nam
+Côn Đảo,Sân bay Côn Đảo,VCS,Việt Nam
+Cần Thơ,Sân bay Quốc tế Cần Thơ,VCA,Việt Nam
+Điện Biên,Sân bay Điện Biên Phủ,DIN,Việt Nam
+Cà Mau,Sân bay Cà Mau,CAH,Việt Nam
+Pleiku,Sân bay Pleiku,PXU,Việt Nam
+Kiên Giang,Sân bay Rạch Giá,VKG,Việt Nam
+Tuy Hòa,Sân bay Đông Tác,TBB,Việt Nam
+Đồng Hới,Sân bay Đồng Hới,VDH,Việt Nam
+Quảng Ninh,Sân bay Quốc tế Vân Đồn,VDO,Việt Nam
+Quảng Ngãi,Sân bay Chu Lai,VCL,Việt Nam
+Thanh Hóa,Sân bay Thọ Xuân,THD,Việt Nam
+Atlanta,Sân bay Quốc tế Hartsfield–Jackson Atlanta,ATL,Hoa Kỳ
+Beijing,Sân bay Quốc tế Thủ đô Bắc Kinh,PEK,Trung Quốc
+Dubai,Sân bay Quốc tế Dubai,DXB,Các Tiểu vương quốc Ả Rập Thống nhất
+Los Angeles,Sân bay Quốc tế Los Angeles,LAX,Hoa Kỳ
+Chicago,Sân bay Quốc tế O'Hare,ORD,Hoa Kỳ
+London,Sân bay Heathrow,LHR,Vương Quốc Anh
+Hong Kong,Sân bay Quốc tế Hồng Kông,HKG,Hồng Kông
+Shanghai,Sân bay Quốc tế Phố Đông Thượng Hải,PVG,Trung Quốc
+Paris,Sân bay Quốc tế Charles de Gaulle,CDG,Pháp
+Amsterdam,Sân bay Amsterdam Schiphol,AMS,Hà Lan
+Dallas,Sân bay Quốc tế Dallas-Fort Worth,DFW,Hoa Kỳ
+Guangzhou,Sân bay Quốc tế Bạch Vân Quảng Châu,CAN,Trung Quốc
+Frankfurt,Sân bay Quốc tế Frankfurt,FRA,Đức
+Istanbul,Sân bay Quốc tế Atatürk,IST,Thổ Nhĩ Kỳ
+Delhi,Sân bay Quốc tế Indira Gandhi,DEL,Ấn Độ
+Jakarta,Sân bay Quốc tế Soekarno-Hatta,CGK,Indonesia
+Singapore,Sân bay Quốc tế Changi Singapore,SIN,Singapore
+Seoul,Sân bay Quốc tế Incheon,ICN,Hàn Quốc
+Denver,Sân bay Quốc tế Denver,DEN,Hoa Kỳ
+Bangkok,Sân bay Suvarnabhumi,BKK,Thái Lan
+New York,Sân bay Quốc tế John F. Kennedy,JFK,Hoa Kỳ
+Kuala Lumpur,Sân bay Quốc tế Kuala Lumpur,KUL,Malaysia
+San Francisco,Sân bay Quốc tế San Francisco,SFO,Hoa Kỳ
+Madrid,Sân bay Quốc tế Adolfo Suárez Madrid–Barajas,MAD,Tây Ban Nha
+Chengdu,Sân bay Quốc tế Song Lưu Thành Đô,CTU,Trung Quốc
+Las Vegas,Sân bay Quốc tế McCarran,LAS,Hoa Kỳ
+Barcelona,Sân bay Quốc tế El Prat,BCN,Tây Ban Nha
+Mumbai,Sân bay Quốc tế Chhatrapati Shivaji,BOM,Ấn Độ
+Toronto,Sân bay Quốc tế Toronto Pearson,YYZ,Canada
+Seattle,Sân bay Quốc tế Seattle–Tacoma,SEA,Hoa Kỳ
+Charlotte,Sân bay Quốc tế Charlotte Douglas,CLT,Hoa Kỳ
+London,Sân bay Gatwick,LGW,Vương Quốc Anh
+Shenzhen,Sân bay Quốc tế Bảo An Thâm Quyến,SZX,Trung Quốc
+Taipei,Sân bay Quốc tế Đào Viên Đài Loan,TPE,Đài Loan
+Mexico City,Sân bay Quốc tế Thành phố Mexico,MEX,Mexico
+Kunming,Sân bay Quốc tế Trường Thủy Côn Minh,KMG,Trung Quốc
+Munich,Sân bay Quốc tế Munich,MUC,Đức
+Orlando,Sân bay Quốc tế Orlando,MCO,Hoa Kỳ
+Miami,Sân bay Quốc tế Miami,MIA,Hoa Kỳ
+Phoenix,Sân bay Quốc tế Sky Harbor Phoenix,PHX,Hoa Kỳ
+Sydney,Sân bay Sydney,SYD,Úc
+Newark,Sân bay Quốc tế Newark Liberty,EWR,Hoa Kỳ
+Manila,Sân bay Quốc tế Ninoy Aquino,MNL,Philippines
+Shanghai,Sân bay Quốc tế Hồng Kiều Thượng Hải,SHA,Trung Quốc
+Xi'an,Sân bay Quốc tế Hàm Dương Tây An,XIY,Trung Quốc
+Rome,Sân bay Quốc tế Leonardo da Vinci–Fiumicino,FCO,Ý
+Houston,Sân bay Quốc tế George Bush Intercontinental,IAH,Hoa Kỳ
+Tokyo,Sân bay Quốc tế Narita,NRT,Nhật Bản
+Moscow,Sân bay Quốc tế Sheremetyevo,SVO,Nga
+Chongqing,Sân bay Quốc tế Giang Bắc Trùng Khánh,CKG,Trung Quốc
+Bangkok,Sân bay Quốc tế Don Mueang,DMK,Thái Lan
+Minneapolis,Sân bay Quốc tế St Paul,MSP,Hoa Kỳ
+Sao Paulo,Sân bay Quốc tế São Paulo–Guarulhos,GRU,Brazil
+Boston,Sân bay Quốc tế Logan,BOS,Hoa Kỳ
+Doha,Sân bay Quốc tế Hamad,DOH,Qatar
+Hangzhou,Sân bay Quốc tế Tiêu Sơn Hàng Châu,HGH,Trung Quốc
+Detroit,Sân bay Quốc tế Detroit Metropolitan Wayne County,DTW,Hoa Kỳ
+Jeddah,Sân bay Quốc tế King Abdulaziz,JED,Ả Rập Xê Út
+Melbourne,Sân bay Melbourne,MEL,Úc
+Fort Lauderdale,Sân bay Quốc tế Fort Lauderdale Hollywood,FLL,Hoa Kỳ
+Orlando,Sân bay Orlando Executive,ORL,Hoa Kỳ
+Istanbul,Sân bay Quốc tế Sabiha Gökçen,SAW,Thổ Nhĩ Kỳ
+Bogota,Sân bay Quốc tế El Dorado,BOG,Colombia
+Moscow,Sân bay Domodedovo,DME,Nga
+Cheju,Sân bay Quốc tế Jeju,CJU,Hàn Quốc
+New York,Sân bay LaGuardia,LGA,Hoa Kỳ
+Philadelphia,Sân bay Quốc tế Philadelphia,PHL,Hoa Kỳ
+Dublin,Sân bay Dublin,DUB,Ireland
+Zurich,Sân bay Zürich,ZRH,Thụy Sĩ
+Copenhagen,Sân bay Copenhagen,CPH,Đan Mạch
+Osaka,Sân bay Quốc tế Kansai,KIX,Nhật Bản
+Palma de Mallorca,Sân bay Palma De Mallorca,PMI,Tây Ban Nha
+Manchester,Sân bay Manchester,MAN,Vương Quốc Anh
+Oslo,Sân bay Oslo, Gardermoen,OSL,Na Uy
+Lisbon,Sân bay Portela Lisbon,LIS,Bồ Đào Nha
+Stockholm,Sân bay Stockholm Arlanda,ARN,Thụy Điển
+Baltimore,Sân bay Quốc tế Thurgood Marshall Washington,BWI,Hoa Kỳ
+Antalya,Sân bay Antalya,AYT,Thổ Nhĩ Kỳ
+London,Sân bay Stansted,STN,Vương Quốc Anh
+Nanjing,Sân bay Quốc tế Lộc Khẩu Nam Kinh,NKG,Trung Quốc
+Seoul,Sân bay Gimpo,GMP,Hàn Quốc
+Bangalore,Sân bay Quốc tế Kempegowda,BLR,Ấn Độ
+Riyadh,Sân bay Quốc tế King Khaled,RUH,Ả Rập Xê Út
+Brussels,Sân bay Quốc tế Brussels,BRU,Bỉ
+Duesseldorf,Sân bay Quốc tế Düsseldorf,DUS,Đức
+Xiamen,Sân bay Quốc tế Cao Khởi Hạ Môn,XMN,Trung Quốc
+Vienna,Sân bay Quốc tế Vienna,VIE,Áo
+Zhengzhou,Sân bay Quốc tế Tân Trịnh Trịnh Châu,CGO,Trung Quốc
+Salt Lake City,Sân bay Quốc tế Salt Lake City,SLC,Hoa Kỳ
+Vancouver,Sân bay Quốc tế Vancouver,YVR,Canada
+Washington,Sân bay Quốc gia Ronald Reagan,DCA,Hoa Kỳ
+Changcha,Sân bay Quốc tế Hoàng Hoa Trường Sa,CSX,Trung Quốc
+Abu Dhabi,Sân bay Quốc tế Abu Dhabi,AUH,Các Tiểu vương quốc Ả Rập Thống nhất
+Cancun,Sân bay Quốc tế Cancún,CUN,Mexico
+Fukuoka,Sân bay Fukuoka,FUK,Nhật Bản
+Qingdao,Sân bay Quốc tế Lưu Đình Thanh Đảo,TAO,Trung Quốc
+Brisbane,Sân bay Quốc tế Brisbane,BNE,Úc
+Wuhan,Sân bay Quốc tế Thiên Hà Vũ Hán,WUH,Trung Quốc
+
