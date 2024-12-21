@@ -1,0 +1,65 @@
+{% extends "flight/layout2.html" %}
+
+{% load static %}
+
+{% block title %}
+    Đăng ký
+{% endblock %}
+
+{% block script %}
+    <script type"text/javascript" src="{% static 'js/signup.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+    <div class="user-box" style="margin-top: 6vh;">
+        <div>
+            <center>
+                <img src="{% static 'img/icon_logo.png' %}" height="35em" style="margin-bottom: 2vh;">
+                <h3>Đăng ký tài khoản</h2><br>
+            </center>
+        </div>
+    
+        <form action="{% url 'register' %}" method="post" id="signin-form" style="width: 100%;margin-bottom: 5vh;"  enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group">
+                <div class="form-row align-items-center">
+                <div class="col-sm-6 my-1">
+                    <input class="form-control inp fname" type="text" name="firstname" placeholder="Tên *" autocomplete="off" autofocus>
+                    <span class="star small"></span>
+                </div>
+                <div class="col-sm-6 my-1">
+                    <input class="form-control inp lname" type="text" name="lastname" placeholder="Họ *" autocomplete="off">
+                    <span class="star small"></span>
+                </div>
+            </div>
+            </div>
+            <div class="form-group">
+                <input class="form-control inp usrname" type="text" name="username" placeholder="Tên đăng nhập *" autocomplete="off">
+                <span class="star small">{{message}}</span>
+            </div>
+            <div class="form-group">
+                <input class="form-control inp email" type="email" name="email" placeholder="Email *" autocomplete="off">
+                <span class="star small"></span>
+            </div>
+            <div class="form-group">
+                <input class="form-control inp pswd" type="password" name="password" placeholder="Mật khẩu *" autocomplete="off">
+                <span class="star small"></span>
+            </div>
+            <div class="form-group">
+                <input class="form-control inp cpswd" type="password" name="confirmation" placeholder="Xác nhận lại mật khẩu *" autocomplete="off">
+                <span class="star small"></span>
+            </div>
+
+
+            <center>
+                <input class="button" type="submit" value="Đăng ký" style="margin-top: 10px; width: 95%;" disabled>
+            </center>
+        </form>
+    
+        <div>
+            <center>
+                Đã có tài khoản?&nbsp;&nbsp;<a href="{% url 'login' %}">Đăng nhập</a>
+            </center>
+        </div><br><br>
+    </div>
+{% endblock %}
