@@ -31,7 +31,7 @@
                             <input type="text" name="Origin" placeholder="Từ" id="flight-from" class="form-control mr-sm-3" onblur="hideplaces(this)" data-value="{{origin | lower}}" data-list="places_from" autocomplete="off" value="{{origin | upper}}">
                             <div id="places_from" class="places_box">
                                 <div class="each_places_from_list places__list" data-value="han" onclick="selectplace(this)">Hà Nội (Việt Nam)</div>
-                                <div class="each_places_from_list places__list" data-value="sgn" onclick="selectplace(this)">Hồ Chí Minh (Việt Nam)</div>
+                                <div class="each_places_from_list places__list" data-value="sgn" onclick="selectplace(this)">TP Hồ Chí Minh (Việt Nam)</div>
                                 <div class="each_places_from_list places__list" data-value="dad" onclick="selectplace(this)">Đà Nẵng (Việt Nam)</div>
                                 <div class="each_places_from_list places__list" data-value="nrt" onclick="selectplace(this)">Tokyo (Japan)</div>
                                 <div class="each_places_from_list places__list" data-value="sin" onclick="selectplace(this)">Singapore (Singapore)</div>
@@ -43,7 +43,7 @@
                             <input type="text" name="Destination" placeholder="Đến" id="flight-to" class="form-control mr-sm-3" onblur="hideplaces(this)" data-value="{{destination | lower}}" data-list="places_to" autocomplete="off" value="{{destination | upper}}">
                             <div id="places_to" class="places_box">
                                 <div class="each_places_from_list places__list" data-value="han" onclick="selectplace(this)">Hà Nội (Việt Nam)</div>
-                                <div class="each_places_from_list places__list" data-value="sgn" onclick="selectplace(this)">Hồ Chí Minh (Việt Nam)</div>
+                                <div class="each_places_from_list places__list" data-value="sgn" onclick="selectplace(this)">TP Hồ Chí Minh (Việt Nam)</div>
                                 <div class="each_places_from_list places__list" data-value="dad" onclick="selectplace(this)">Đà Nẵng (Việt Nam)</div>
                                 <div class="each_places_from_list places__list" data-value="nrt" onclick="selectplace(this)">Tokyo (Japan)</div>
                                 <div class="each_places_from_list places__list" data-value="sin" onclick="selectplace(this)">Singapore (Singapore)</div>
@@ -75,77 +75,4 @@
             </div>
         </div>
     </section>
-    <!-- <section class="section second-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section_title text-center mb_70">
-                        <h2>Điểm đến thu hút</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row popular_destinations">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination" onclick="window.location.href = 'https://en.wikipedia.org/wiki/Tourism_in_Italy'">
-                        <div class="thumb">
-                            <img src="{% static 'img/destination/1.png' %}" alt="">
-                        </div>
-                        <div class="content">
-                            <a href="#">Italy</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination" onclick="window.location.href = 'https://en.wikipedia.org/wiki/Tourism_in_Brazil'">
-                        <div class="thumb">
-                            <img src="{% static 'img/destination/2.png' %}" alt="">
-                        </div>
-                        <div class="content">
-                            <a href="#">Brazil</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination" onclick="window.location.href = 'https://en.wikipedia.org/wiki/Tourism_in_the_United_States'">
-                        <div class="thumb">
-                            <img src="{% static 'img/destination/3.png' %}" alt="">
-                        </div>
-                        <div class="content">
-                            <a href="#">America</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination" onclick="window.location.href = 'https://en.wikipedia.org/wiki/Tourism_in_Nepal'">
-                        <div class="thumb">
-                            <img src="{% static 'img/destination/4.png' %}" alt="">
-                        </div>
-                        <div class="content">
-                            <a href="#">Nepal</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination" onclick="window.location.href = 'https://en.wikipedia.org/wiki/Tourism_in_the_Maldives'">
-                        <div class="thumb">
-                            <img src="{% static 'img/destination/5.png' %}" alt="">
-                        </div>
-                        <div class="content">
-                            <a href="#">Maldives</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_destination" onclick="window.location.href = 'https://en.wikipedia.org/wiki/Tourism_in_Indonesia'">
-                        <div class="thumb">
-                            <img src="{% static 'img/destination/6.png' %}" alt="">
-                        </div>
-                        <div class="content">
-                            <a href="#">Indonesia</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 {% endblock%}

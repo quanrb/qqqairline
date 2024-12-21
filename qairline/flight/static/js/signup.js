@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if(input.classList.contains('cpswd')){
                 if(input.value.trim().length !== 0) {
                     if(input.value !== document.querySelector('.pswd').value) {
-                        input.parentElement.querySelector('span').innerText = "Password must match";
+                        input.parentElement.querySelector('span').innerText = "Mật khẩu xác nhận chưa trùng khớp.";
                         check[4] = false;
                     }
                     else {
@@ -71,15 +71,4 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
-    //document.querySelector('.cpswd').addEventListener('input', event => {
-    //    event.target.addEventListener('input', () => {
-    //        if(event.target.value !== document.querySelector('.pswd').value) {
-    //            event.target.parentElement.querySelector('span').innerText = "Password must match";
-    //        }
-    //        else {
-    //            event.target.parentElement.querySelector('span').innerText = "";
-    //            document.querySelector('input[type="submit"]').disabled = true;
-    //        }
-    //    });
-    //});
 });

@@ -119,26 +119,26 @@ function trip_type() {
 
 function flight_search() {
     if(!document.querySelector("#flight-from").dataset.value) {
-        alert("Please select flight origin.");
+        alert("Vui lòng chọn điểm đi");
         return false;
     }
     if(!document.querySelector("#flight-to").dataset.value) {
-        alert("Please select flight destination.");
+        alert("Vui lòng chọn điểm đến.");
         return false;
     }
     if(document.querySelector("#one-way").checked) {
         if(!document.querySelector("#depart_date").value) {
-            alert("Please select departure date.");
+            alert("Vui lòng chọn ngày đi");
             return false;
         }
     }
     if(document.querySelector("#round-trip").checked) {
         if(!document.querySelector("#depart_date").value) {
-            alert("Please select departure date.");
+            alert("Vui lòng chọn ngày đi.");
             return false;
         }
         if(!document.querySelector("#return_date").value) {
-            alert("Please select return date.");
+            alert("Vui lòng chọn ngày về.");
             return false;
         }
     }
